@@ -1,0 +1,74 @@
+<p>Hi, I'm SATHISH , a budding front-end developer and second-year student at SRM University. With a foundation in HTML, CSS, and basic JavaScript, I enjoy crafting responsive, visually appealing web pages that prioritize user experience.
+
+    I’m passionate about exploring modern design trends and building websites that strike a balance between creativity and functionality. As I continue my learning journey, I aim to deepen my understanding of JavaScript and dive into frameworks like React to build more dynamic applications.
+    
+    My key strengths include:
+    
+    Crafting clean, responsive layouts with HTML and CSS
+    Implementing interactive elements with JavaScript
+    Bringing creativity and problem-solving to front-end challenges
+    Currently, I'm eager to collaborate on projects, learn from industry professionals, and continue leveling up my front-end development skills.</p>
+    <style>/* General Paragraph Styling */
+        p {
+          max-width: 700px;
+          background: #ffffff;
+          margin: 50px auto;
+          padding: 25px 30px;
+          border-radius: 12px;
+          font-size: 1.1rem;
+          line-height: 1.8;
+          color: #333;
+          box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+          animation: fade-in 1.2s ease-out forwards;
+          position: relative;
+          overflow: hidden;
+        }
+        
+        /* Slide-in Decorative Border */
+        p::before {
+          content: '';
+          position: absolute;
+          height: 4px;
+          width: 0;
+          top: 0;
+          left: 0;
+          background: linear-gradient(45deg,  #3182b4, rgb(138, 177, 206));
+          animation: slide-in-border 1.4s ease-in-out forwards;
+        }
+        
+        p:hover {
+          background: #cedce7;
+          transform: translateY(-5px);
+          transition: all 0.3s ease;
+        }
+        
+        p:hover::before {
+          width: 100%;
+        }
+        
+        /* Animation for Text Entry */
+        @keyframes fade-in {
+          0% {
+            opacity: 0;
+            transform: translateY(15px);
+          }
+          100% {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        
+        @keyframes slide-in-border {
+          0% {
+            width: 0;
+          }
+          100% {
+            width: 100%;
+          }
+        }
+        body{
+        
+    background-image: url('GCC-High-Website-Banner.webp');
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;}
+        </style>
